@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite" verbose="1">
+    <test name="Amused_API">
+        <classes>
+            <class name="org.amused.tests.deleteProductDataTest"/>
+            <class name="org.amused.tests.addValidObjectsTest"/>
+            <class name="org.amused.tests.getAllObjectsTest"/>
+            <class name="org.amused.tests.updateProductDataTest"/>
+        </classes>
+    </test>
+</suite>
